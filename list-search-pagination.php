@@ -1,7 +1,7 @@
 <?php
 session_start();
-$conn = mysql_connect('localhost','root','3819724993') or die ('ko the ket noi');
-mysql_select_db('project',$conn);
+$conn = mysql_connect('localhost','root','') or die (mysql_error());
+mysql_select_db('test',$conn);
 
 $data = $_GET;
 $sql = "SELECT * FROM user";
