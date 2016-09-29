@@ -1,3 +1,4 @@
+<?php
 function array_search_recursive($value,$array)
 {
     if(is_array($value))
